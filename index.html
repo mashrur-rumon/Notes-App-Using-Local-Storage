@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+
+  <title>Note Board</title>
+</head>
+<body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="/image/logo.png" alt="logo" class="nav__logo">
+            <span>Note Board</span>
+        </a>
+        </div>
+    </nav>
+    <!-- navbar end -->
+    <br>
+
+    <!-- input section start -->
+    <div class="container">
+        <form action="">
+            <input type="text" id="note-title" placeholder="Note-title" class="form-control"> <br>
+            <textarea name="" id="note-text" placeholder="Note-details" class="form-control"></textarea> <br>
+            <button id="add-btn" class="btn btn-dark">Add Note</button>
+        </form>
+    <br>
+    <hr>
+    </div>
+    <!-- input section end -->
+
+    <!-- output/notes section start -->
+    <section>
+        <div class="container">
+            <h4>Your Notes</h4>
+            <hr>
+            <div id="notes">
+                
+            </div>
+        </div>
+    </section>
+    <!-- output/notes section end -->
+    
+    <script src="/script.js"></script>
+</body>
+</html>

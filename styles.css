@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'roboto';
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.nav__logo {
+    height: 52px;
+}
+
+.note{
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #f7f7f7;
+  
+    margin: 1rem 0;
+}
